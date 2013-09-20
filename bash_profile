@@ -46,7 +46,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 [ -f `brew --prefix git`/share/git-core/contrib/completion/git-prompt.sh ] && source `brew --prefix git`/share/git-core/contrib/completion/git-prompt.sh
 
 # initialise rbenv
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # initialise phpenv
 # eval "$(phpenv init -)"
